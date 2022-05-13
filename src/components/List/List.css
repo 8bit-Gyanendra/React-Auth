@@ -1,0 +1,8 @@
+
+
+.list-d{
+    display: flex;
+    flex-direction: column;
+    inline-size: auto;
+    word-wrap: break-word;
+}

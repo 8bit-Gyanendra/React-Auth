@@ -1,4 +1,18 @@
 main{
   margin-top: 3rem;
-  height: 75vh;
+  height: auto;
+}
+
+h1.completed{
+  pointer-events: none;
+  text-decoration: line-through;
+  box-shadow: 0px 0px 5px rgba(251, 162, 162, 0.2);
+}
+
+h1.notCopmpleted{
+  cursor: pointer;
+}
+
+h1.notCompleted:hover{
+  box-shadow: 0px 0px 5px rgba(79, 71, 71, 0.2)
 }

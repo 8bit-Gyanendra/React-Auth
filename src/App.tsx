@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -8,22 +7,27 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import HomePage from './Screens/HomePage';
 import LoginPage from './Screens/LoginPage';
 import SignupPage from './Screens/SignupPage';
+import MultiLangPage from './Screens/MultiLangPage';
+import TodoPage from './Screens/TodoPage';
 
-function App() {
+const App = () => {
+
   return (
-      <Router>
-        <Header />
-        <main>
-          <Container>
-            <Routes>
-            <Route path='/' element = {< HomePage />} />
+    <Router>
+      <Header />
+      <main>
+        <Container>
+          <Routes>
+            <Route path='/' element={< HomePage />} />
             <Route path='/signup' element={<SignupPage />} />
-            <Route path='/login' element={<LoginPage /> } />
-            </Routes>
-          </Container>
-        </main>
-        <Footer />
-      </Router>    
+            <Route path='/login' element={<LoginPage />} />
+            <Route path='/multilang' element={<MultiLangPage />} />
+            <Route path='/todo' element={<TodoPage/>} />
+          </Routes>
+        </Container>
+      </main>
+      <Footer />
+    </Router>  
   );
 }
 

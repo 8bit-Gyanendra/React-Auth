@@ -16,16 +16,12 @@ const SignupPage = () => {
         event.preventDefault();
 
         localStorage.setItem(email, password)
-        navigate('/login')
 
         // localStorage.removeItem(email, password)
 
         //interact with the backend
         
     }
-
-
-
     return (
         <FormContainer>
             <h1 className='text-center'>SignUp</h1>
