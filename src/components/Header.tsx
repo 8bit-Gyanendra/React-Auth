@@ -14,6 +14,7 @@ const Header = () => {
               <Nav.Link href="login">Login</Nav.Link>
               <Nav.Link href="todo">Todo</Nav.Link>
               <Nav.Link href="multilang">MultiLang</Nav.Link>
+              <Nav.Link href="news">NewsAPI</Nav.Link>
         </Nav>
       </Navbar.Collapse>    
   </Container>

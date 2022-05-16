@@ -9,6 +9,7 @@ import LoginPage from './Screens/LoginPage';
 import SignupPage from './Screens/SignupPage';
 import MultiLangPage from './Screens/MultiLangPage';
 import TodoPage from './Screens/TodoPage';
+import NewAPI from './Screens/NewAPI';
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path='/login' element={<LoginPage />} />
             <Route path='/multilang' element={<MultiLangPage />} />
             <Route path='/todo' element={<TodoPage/>} />
+            <Route path='/news' element={<NewAPI/>} />
           </Routes>
         </Container>
       </main>

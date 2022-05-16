@@ -16,3 +16,13 @@ h1.notCopmpleted{
 h1.notCompleted:hover{
   box-shadow: 0px 0px 5px rgba(79, 71, 71, 0.2)
 }
+
+.news-cards {
+   display : flex ; 
+   flex-direction:  row ;
+   align-items: left;
+   justify-content: left;
+   margin : auto;
+   flex-wrap: wrap;
+   padding: 50px;
+}
