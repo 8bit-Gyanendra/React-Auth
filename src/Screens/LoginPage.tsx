@@ -13,10 +13,11 @@ const LoginPage = () => {
 
     const submitHandler = (event: SyntheticEvent) => {
         event.preventDefault()
-        // console.log('submitted')
-        if(localStorage.getItem(email) === password){
-            // navigate('/login')
-        }
+        // // console.log('submitted')
+        // if(localStorage.getItem(email) === password){
+        //     // navigate('/login')
+        // }
+        
     }
 
     return (

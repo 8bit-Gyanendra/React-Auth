@@ -6,6 +6,7 @@ import NewsApiInterface from '../Interface/NewsApiInterface';
 const NewAPI = () => {
 
     const [data, setData] = useState([])
+    
     useEffect(() => {
         getNews()
     }, [data])

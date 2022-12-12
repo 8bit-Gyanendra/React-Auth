@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const HomePage = () => {
-  return (
-    <h1 className='text-center'>Welcome To The ReactAuth Home Page</h1>
-  )
-}
+  return <p className="text-center">Welcome To The ReactAuth Home Page</p>;
+};
 
 export default HomePage;
